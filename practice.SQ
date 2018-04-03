@@ -1,0 +1,16 @@
+CREATE TABLE tv_shows (
+  id INT, 
+  name TEXT,
+  rating INT
+  );
+  
+  INSERT INTO tv_shows (id, name, rating)
+  VALUES (1, 'Psych', 5);
+  
+  INSERT INTO tv_shows (id, name, rating)
+  VALUES (2, 'Steven Universe', 5);
+  
+  INSERT INTO tv_shows (id, name, rating)
+  VALUES (3, 'Spongebob Squarepants', 4);
+  
+  SELECT * FROM tv_shows;
